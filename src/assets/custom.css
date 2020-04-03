@@ -1,0 +1,191 @@
+/* custom style for moodle app customization 
+ * Author:  joshuaomotayo
+ * Url:     http://olalekan.pw
+ * Email:   admin@olalekan.pw
+*/
+
+
+
+/* logo */
+
+ion-app.app-root page-core-login-credentials img.login-logo, ion-app.app-root page-core-login-reconnect img.login-logo, ion-app.app-root page-core-login-site img.login-logo {
+    width: 90%;
+    max-width: 200px;
+}
+
+/*profile message button*/
+ion-app.app-root page-core-user-profile .core-user-communication-handlers .core-user-profile-handler .icon {
+    background-color: #132144;
+}
+ion-app.app-root page-core-user-profile .core-user-communication-handlers .core-user-profile-handler {
+    color: #132144 !important;
+}
+
+/*toolbar - ion-header*/
+.toolbar-background-md {
+    border-color: #b2b2b2;
+    background: #132144;
+}
+/*login button*/
+.button-md {
+    background-color: #132144;
+    color: #FFFFFF !important;
+}
+.button-md:hover:not(.disable-hover) {
+    background-color: #132144;
+}
+/*showdow input bottom border*/
+.item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+    border-bottom-color: #FCFCFC;
+    -webkit-box-shadow: inset 0 -1px 0 0 #FCFCFC;
+    box-shadow: inset 0 -1px 0 0 #FCFCFC;
+}
+.item-md.item-input.item-input-has-focus .item-inner, .item-md.item-input.input-has-focus .item-inner {
+    border-bottom-color: #132144;
+    -webkit-box-shadow: inset 0 -1px 0 0 #132144;
+    box-shadow: inset 0 -1px 0 0 #132144;
+}
+[dir="ltr"] .item-md {
+    padding-left: 4px;
+    padding-right: 0;
+}
+/*forgot password button and color*/
+.button-md-light {
+    color: #132144;
+    background-color: #f5f5f5 !important;
+}
+ion-app.app-root.md .button-md-light {
+    color: #132144 !important;
+}
+/*button*/
+.button {
+    /*background-color: none !important;*/
+    /*border-color: #1C7C00;
+    color: #1C7C00;*/
+}
+/*dasboard tab bar*/
+ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] {
+    color: #132144 !important;
+    border-bottom-color: #132144 !important;
+}
+/*dashboard drop down*/
+ion-app.app-root ion-select.core-button-select .select-icon .select-icon-inner, ion-app.app-root .core-button-select .select-icon .select-icon-inner {
+    color: #132144;
+}
+ion-app.app-root ion-select.core-button-select, ion-app.app-root .core-button-select {
+    color: #132144;
+}
+/*progress bar in courses*/
+ion-app.app-root core-progress-bar progress .progress-bar-fallback span, ion-app.app-root core-progress-bar progress[value]::-webkit-progress-value {
+    background-color: #132144;
+    border-radius: 0;
+}
+/*radio button*/
+.radio-md .radio-checked {
+    border-color: #132144;
+}
+.radio-md .radio-inner {
+    background-color: #132144;
+}
+.item-radio-checked.item-md ion-label {
+    color: #132144;
+}
+/*calendar*/
+ion-app.app-root addon-calendar-calendar .addon-calendar-day.today .addon-calendar-day-number span {
+    background-color: #132144;
+}
+/*3 dot more icon*/
+.button-clear.button-clear {
+    border-color: transparent !important;
+    background: transparent !important;
+    color: #FFFFFF !important;
+}
+/*fab button*/
+.fab-md, .fab-md.activated {
+    background-color: #132144;
+}
+/*action for upload in private link*/
+.action-sheet-md .action-sheet-title {
+    color: #132144;
+}
+/*hamburger menu*/
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon, .tabs-md ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] .tab-button-icon, ion-app.app-root .core-tabs-bar .tabs-md .tab-slide[aria-selected=true] .tab-button-icon {
+    color: #f5821f;
+}
+/*toggle button*/
+.toggle-md.toggle-checked .toggle-icon {
+    background-color: #f5821f78;
+}
+.toggle-md.toggle-checked .toggle-inner {
+    background-color: #132144;
+}
+/*general settings*/
+ion-app.app-root ion-select .select-icon .select-icon-inner {
+    color: #132144;
+}
+ion-app.app-root ion-select {
+    color: #132144;
+}
+ion-app.app-root .action-sheet-wrapper .action-sheet-selected {
+    color: #132144;
+}
+/*font sizes*/
+.segment-md-primary .segment-button.activated, .segment-md-primary .segment-button.segment-activated {
+    border-color: #132144;
+    color: #132144;
+}
+.segment-md-primary .segment-button {
+    color: #132144;
+}
+/*alert button color*/
+.alert-md .alert-button {
+    color: #132144;
+}
+/*app usage section*/
+[dir="ltr"] ion-app.app-root .core-primary-selected-item {
+    border-left: 5px solid #132144;
+}
+/*change site icon*/
+ion-app.app-root .item .item-button[icon-only] {
+    color: red !important;
+}
+
+/*IOS Theme*/
+.toolbar-background-ios {
+    background: #132144;
+}
+.button-ios {
+    background: #132144;
+}
+ion-app.app-root.ios .button-ios-light {
+    color: #ffffff;
+}
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon, .tabs-ios ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] .tab-button-icon, ion-app.app-root .core-tabs-bar .tabs-ios .tab-slide[aria-selected=true] .tab-button-icon {
+    color: #132144;
+}
+.segment-ios-primary .segment-button.segment-activated {
+    background-color: #132144;
+}
+.segment-ios-primary .segment-button {
+    border-color: #132144;
+    color: #132144;
+}
+.toggle-ios.toggle-checked .toggle-icon {
+    background-color: #132144;
+}
+
+/* fit video on mobile */
+ion-app.app-root .core-media-adapt-width {
+    width: 100% !important;
+    height: auto;
+}
+video {
+    width: 100% !important;
+    height: auto;
+}
+
+/*landscape desktop*/
+@media screen and (orientation: landscape)
+[dir="ltr"] ion-app.app-root core-split-view .split-pane-visible .split-pane-side .core-split-item-selected {
+    border-left: calc(env(safe-area-inset-left) + 5px) solid #132144;
+}
